@@ -1,0 +1,84 @@
+/* Chamada da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Reset CSS mini */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Início do header */
+.header-top{
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+    margin: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: fixed;
+    top: 0;
+    left: 0;   
+}
+.header-top-title{
+    font-size: 5vmin;
+    font-weight: 700;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav li{
+    margin: 0 20px
+}
+
+.header-nav a{
+    font-size: 1rem;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.header-nav a:hover{
+    color:silver
+}
+/* Fim do header */
+
+/* Início do hero */
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 0 20px;
+    background-image: url(../images/img-06.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title{
+    color:#fff;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Fim do hero */
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
